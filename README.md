@@ -22,7 +22,7 @@ The deploy command will give the following output with a different subdomain aft
 
 Outputs:
 
-Step02HelloWebsiteStack.DistributionDomainName = d15yn76b7cv6tf.cloudfront.net
+Step02HelloWebsiteStack.DistributionDomainName = d1levdydp6fbqq.cloudfront.net
 
 
 # Welcome to your CDK TypeScript project!
