@@ -1,3 +1,30 @@
+aws-cloudfront module
+
+aws-s3 module
+
+aws-s3-deployment module
+
+Deploying Static Websites To AWS S3 + CloudFront + Route53 Using The TypeScript AWS CDK
+
+mkdir step02_hello_website
+
+cd step02_hello_website
+
+cdk init app --language typescript
+
+npm install @aws-cdk/aws-s3 @aws-cdk/aws-s3-deployment @aws-cdk/aws-cloudfront @aws-cdk/aws-cloudfront-origins
+
+npm run build
+
+cdk deploy
+
+The deploy command will give the following output with a different subdomain after completion:
+
+Outputs:
+
+Step02HelloWebsiteStack.DistributionDomainName = d15yn76b7cv6tf.cloudfront.net
+
+
 # Welcome to your CDK TypeScript project!
 
 This is a blank project for TypeScript development with CDK.
